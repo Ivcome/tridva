@@ -2,15 +2,15 @@ public class Main {
     public static void main(String[] args) {
 
         int balans = 100;
-        int many = 1500;
-        boolean iSregistered = true;
-        if (many >= 1000) {
-            int percent = iSregistered ? 1 : 0;
-            int bonus = many / 100 * percent;
-            System.out.println(balans + many + bonus);
+        int creditingMoney = 1500;
+        boolean bonusСondition = true;
+        if (creditingMoney >= 1000) {
+            int percent = bonusСondition ? 1 : 0;
+            int bonus = creditingMoney / 100 * percent;
+            System.out.println(balans + creditingMoney + bonus);
 
         } else {
-            System.out.println(balans + many);
+            System.out.println(balans + creditingMoney);
         }
 //        int percent;
 //        if (iSregistered) {
