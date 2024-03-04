@@ -4,7 +4,7 @@ public class Main {
         int balans = 100;
         int creditingMoney = 1050;
         boolean bonusСondition = true;
-        if (creditingMoney >= 1100) {
+        if (creditingMoney >= 1001) {
             int percent = bonusСondition ? 1 : 0;
             int bonus = creditingMoney / 100 * percent;
             System.out.println(balans + creditingMoney + bonus);
