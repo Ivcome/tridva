@@ -1,17 +1,28 @@
 public class Main {
     public static void main(String[] args) {
 
-        int balans = 100;
-        int creditingMoney = 1050;
-        boolean bonusСondition = true;
+          int balans = 100;
+        int creditingMoney = 5550;
         if (creditingMoney >= 1001) {
-            int percent = bonusСondition ? 1 : 0;
-            int bonus = creditingMoney / 100 * percent;
+
+            int bonus = creditingMoney / 100;
             System.out.println(balans + creditingMoney + bonus);
 
         } else {
             System.out.println(balans + creditingMoney);
         }
+//
+//        int balans = 100;
+//        int creditingMoney = 1050;
+//        boolean bonusСondition = true;
+//        if (creditingMoney >= 1001) {
+//            int percent = bonusСondition ? 1 : 0;
+//            int bonus = creditingMoney / 100 * percent;
+//            System.out.println(balans + creditingMoney + bonus);
+//
+//        } else {
+//            System.out.println(balans + creditingMoney);
+//        }
 //        int percent;
 //        if (iSregistered) {
 //            percent = 1;
@@ -26,5 +37,6 @@ public class Main {
         // сумма пополнения порог, и для этих двух разных
         // сценариев рассчитываете сумму бонуса и выводите
         // на экран.
+
     }
 }
