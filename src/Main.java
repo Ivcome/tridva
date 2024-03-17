@@ -8,7 +8,9 @@ public class Main {
             int bonus = creditingMoney / 100;
             System.out.println(balans + creditingMoney + bonus);
 
-        } else System.out.println(balans + creditingMoney);
+        } else {
+            System.out.println(balans + creditingMoney);
+        }
         // Объявляете переменные для входных данных и
         // параметров программы: начального счёта,
         // суммы пополнения и тп
